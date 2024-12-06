@@ -1,1 +1,1 @@
-# chabot_sql_gemini
+# Chatbot SQL with Gemini
