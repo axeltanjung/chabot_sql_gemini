@@ -4,7 +4,7 @@ import pandas as pd
 import mysql.connector
 
 # Step 1: Load the CSV file
-csv_file = 'data.csv'
+csv_file = '../data/data.csv'
 df = pd.read_csv(csv_file, encoding='ISO-8859-1')
 
 # Replace NaN values with None

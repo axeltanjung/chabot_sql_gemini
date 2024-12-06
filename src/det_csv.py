@@ -16,7 +16,7 @@ Usage:
     Run this script to detect and print the encoding of the specified CSV file.
 """
 
-csv_file = 'data.csv'
+csv_file = '../data/data.csv'
 
 with open(csv_file, 'rb') as f:
     result = chardet.detect(f.read())
